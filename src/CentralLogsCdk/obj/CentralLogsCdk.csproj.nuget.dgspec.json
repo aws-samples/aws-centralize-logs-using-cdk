@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nbbalara/Documents/blog/central-log/aws-samples/central-logs-cdk/src/CentralLogsCdk/CentralLogsCdk.csproj": {}
+  },
+  "projects": {
+    "/Users/nbbalara/Documents/blog/central-log/aws-samples/central-logs-cdk/src/CentralLogsCdk/CentralLogsCdk.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nbbalara/Documents/blog/central-log/aws-samples/central-logs-cdk/src/CentralLogsCdk/CentralLogsCdk.csproj",
+        "projectName": "CentralLogsCdk",
+        "projectPath": "/Users/nbbalara/Documents/blog/central-log/aws-samples/central-logs-cdk/src/CentralLogsCdk/CentralLogsCdk.csproj",
+        "packagesPath": "/Users/nbbalara/.nuget/packages/",
+        "outputPath": "/Users/nbbalara/Documents/blog/central-log/aws-samples/central-logs-cdk/src/CentralLogsCdk/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/nbbalara/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Amazon.CDK": {
+              "target": "Package",
+              "version": "[1.36.1, )"
+            },
+            "Amazon.CDK.AWS.IAM": {
+              "target": "Package",
+              "version": "[1.36.1, )"
+            },
+            "Amazon.CDK.AWS.KinesisFirehose": {
+              "target": "Package",
+              "version": "[1.36.1, )"
+            },
+            "Amazon.CDK.AWS.Logs": {
+              "target": "Package",
+              "version": "[1.36.1, )"
+            },
+            "Amazon.CDK.AWS.SNS": {
+              "target": "Package",
+              "version": "[1.36.1, )"
+            },
+            "Amazon.CDK.AWS.SNS.Subscriptions": {
+              "target": "Package",
+              "version": "[1.36.1, )"
+            },
+            "Amazon.CDK.AWS.SQS": {
+              "target": "Package",
+              "version": "[1.36.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
